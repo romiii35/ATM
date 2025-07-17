@@ -18,6 +18,16 @@ while True: #True이기에 무조건 실행-무한
     if num == '4':  #4번은 종료 기능
 
         break # break 만나면 가장 가까운 반복문-바로 서비스 종료4
+
+    if num == '1':
+        pass
+    
+    if num == '2':
+        pass
+    
+    if num == '3':
+        pass
+     
 print(f'서비스를 종료합니다.현재 잔액은 {balance}') # break 전, 입력가능
 
 
