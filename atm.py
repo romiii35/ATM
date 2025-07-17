@@ -19,16 +19,15 @@ while True: #True이기에 무조건 실행-무한
 
         break # break 만나면 가장 가까운 반복문-바로 서비스 종료4
 
-    if num == '1':
-        pass
-    
+    if num == '1': #입금 기능 구현 -> feat/deposit 브랜치에서 작업
+        deposit_amount = int(input('입금할 금액을 입력해주세요: ')) #str:5000 -> int
+        balance += deposit_amount #balance = balance + deposit_amount
+        print(f'입금하신 금액은 {deposit_amount}원이고, 현재 잔액은{balance}원 입니다.')
     if num == '2':
         pass
-    
+
     if num == '3':
         pass
      
-print(f'서비스를 종료합니다.현재 잔액은 {balance}') # break 전, 입력가능
-
-
+print(f'서비스를 종료합니다.현재 잔액은 {balance}원') # break 전, 입력가능
 
